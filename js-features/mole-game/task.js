@@ -23,12 +23,12 @@ holes.forEach((element) => {
     }
 
     if (deadCount === 10) {
-      console.log("Вы победили!");
+      alert("Вы победили!");
       reset();
     }
 
     if (lostCount === 5) {
-      console.log("Вы проиграли!");
+      alert("Вы проиграли!");
       reset();
     }
   };
