@@ -1,10 +1,10 @@
 const rotator = document.querySelector(".rotator");
 
-const rotatorCases = document.querySelectorAll(".rotatorcase");
+const rotatorCases = document.querySelectorAll(".rotator__case");
 
 function clearAllCases() {
   rotatorCases.forEach((rotatorCase) =>
-    rotatorCase.classList.remove("rotatorcase_active")
+    rotatorCase.classList.remove("rotator__case_active")
   );
 }
 
