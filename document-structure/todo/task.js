@@ -3,7 +3,7 @@ const tasksList = document.querySelector(".tasks__list");
 const tasksAdd = document.querySelector(".tasks__add");
 tasksAdd.addEventListener("click", (e) => {
   e.preventDefault();
-  const text = input.value;
+  const text = input.value.trim();
   if (text !== "") {
     input.value = "";
     renderTask(text);
